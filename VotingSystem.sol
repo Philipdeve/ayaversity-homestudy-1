@@ -17,6 +17,7 @@ contract VotingSystem {
     mapping(uint256 => Candidate) public candidates;
     uint256 public candidateCount;
 
+
     mapping(address => Voter) public voters;
 
     constructor(string[] memory candidateNames) {
